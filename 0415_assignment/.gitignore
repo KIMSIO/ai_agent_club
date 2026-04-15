@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+# Database files
+*.db
+
+# Local vector store / uploaded docs cache
+.vector_store.json
+uploaded_docs/
+
+# Dropbox/OneDrive sync tempfiles
+*.tmp.*

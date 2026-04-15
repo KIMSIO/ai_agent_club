@@ -1,0 +1,18 @@
+[project]
+name = "life-coach-file-search"
+version = "0.1.0"
+description = "Life Coach agent with File Search + Web Search + Session Memory"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "graphviz>=0.21",
+    "openai>=1.54.0",
+    "openai-agents[viz]>=0.2.6",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.48.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
