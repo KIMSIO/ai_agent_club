@@ -1,0 +1,17 @@
+[project]
+name = "study-mate-v2"
+version = "0.2.0"
+description = "Education Agent — concept extraction + flashcards + quiz + score-based branching with web search"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.50",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-community>=0.3.0",
+    "ddgs>=9.0.0",
+    "openai>=1.50.0",
+    "python-dotenv>=1.0.0",
+    "ipykernel>=6.29.0",
+    "jupyterlab>=4.2.0",
+]
